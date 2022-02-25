@@ -1,0 +1,432 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/3e4372cd2d.js" crossorigin="anonymous"></script>
+    <title>Account Opening Template</title>
+</head>
+<style>
+    
+   
+    .txt_1 {
+        color: rgba(3, 20, 44, 0.904);
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    .bold{
+        color:rgb(4, 22, 48);
+    }
+    .txt_name {
+        color: rgb(4, 22, 48);
+        font-size: 22px;
+        font-weight: 800 ;
+        line-height: 44px;
+        margin: 32px 0px 14px;
+        padding: 0px;
+        font-family: Circular, "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+    
+    .txt_2 {
+        background-position: 50% 0px;
+        background-repeat: no-repeat;
+        border: 0px;
+        border-radius: 3px;
+        min-width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+        text-align: left;
+        vertical-align: top;
+        width: 100%;
+        color: #253F66;
+    }
+    
+    .txt_2 a {
+        color: #253F66;
+        cursor: pointer;
+    }
+
+    .bottom {
+        padding-top: 9px;
+        margin-top: 4px;
+    }
+    
+    .Activate_button {
+        background-color: #253F66;
+        border-radius: 4px;
+        font-family: Circular, "Google Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1.4px;
+        padding: 16px 32px;
+        text-transform: uppercase;
+        color: #fff!important;
+        text-decoration: none;
+        border: none;
+    }
+    
+    .Activate_button :hover {
+        background-color: #ffff;
+        border-color: #253F66;
+        color: #253F66;
+        cursor: pointer;
+    }
+    
+    ul,li {
+        list-style: none;
+    }  
+    
+    
+    a:not([href]):not([tabindex]) {
+        color: #253F66;
+        text-decoration: none;
+    }
+    
+    .link {
+        color: #00C9FF;
+        cursor: pointer;
+    }
+
+    .account-details{
+    color: rgb(35, 56, 88);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0px;
+    font-family: Circular, "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+
+    .address {
+        color: #fff;
+        /* font-weight: bold; */
+    }
+    
+    .fas {
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    .padding-left {
+        padding-inline-start: 0px;
+    }
+
+    a{
+        text-decoration: underline;
+        color: #198754;
+        font-weight: 500;
+    }
+
+   
+    a:hover{
+     background: none;
+    }
+
+    .titan-image {
+        
+        border-radius:30px;
+        box-shadow: 0 4px 8px 0 rgba(167, 159, 159, 0.548), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card-body{
+      
+        background: rgba(248, 248, 248, 0.93);
+  backdrop-filter: blur(0px);
+  border-radius: 3%;
+  padding: 7%;
+  margin-top:40px;
+  margin-bottom: 200px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.363), 0 16px 20px 0 rgba(0, 0, 0, 0.411);
+    }
+   
+    body {
+        background-image: url('images/white1.jpg');
+        backdrop-filter: blur(0px);
+     
+       
+   /*for the position, try using center or bottom*/
+        background-repeat: repeat;
+
+    }
+
+    footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:  #0e693f;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    height: auto;
+    width: 100%;
+    padding-top: 19px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0.1rem 1.25rem 0.25rem 5.375rem;
+   align-content: center;
+  
+}
+.ft-main {
+    padding: 1.25rem;
+    min-width: 12.5rem /*200px*/;
+}
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+        margin-top:10px;
+    }
+    .img-fluid{
+        width:95px;
+        margin-left:2px;
+        margin-top: -5px;
+    
+    }
+    .location{
+        margin-right:95px;
+        margin-bottom: -25px;
+        margin-top:-2px;
+    }
+    .logo{
+        margin-right:100px;
+    
+    }
+    .socials{
+        margin-top:3px;
+        margin-right: 80px;
+    }
+    .card-body{
+        margin-bottom:540px
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-between;
+    }
+    .img-fluid{
+        width:110px;
+        margin-left: -30px;
+    }
+    .location{
+        margin-right:90px;
+    }
+    .logo{
+        margin-left:55px;
+    }
+    .socials{
+        margin-right:90px;
+        padding-right: 50px;
+        margin-bottom: 55px;
+    }
+}
+
+    
+   /* footer{
+         width: 100%;
+         position:absolute;
+         bottom:0;
+         
+         
+         
+         /*background-image:linear-gradient(90deg, #020024 50%,  #253F66 65%, #f44336 100%);*/
+       /*background: rgb(3,23,54);
+background: linear-gradient(90deg, rgba(3,23,54,1) 41%, rgba(37,63,102,1) 98%);*/
+/*background: rgb(4, 2, 43);
+background: rgb(9,5,69);
+background: linear-gradient(72deg, #156e45 21%, #156e45 74%, #198754 100%);
+
+border-right: 9px solid #f83426;
+   
+   border-top-left-radius: 115px;
+   font-size:12px;
+   line-height:20px;
+   margin-top: 5px;
+   padding-top:10px;
+ 
+       
+      
+
+   }*/
+   /* .row{
+       width:85%;
+       margin:auto;
+       display:flex;
+       flex-wrap:wrap;
+       align-items:flex-start;
+       justify-content:space-between;
+   } */
+   .row{
+       width:100%;
+       
+      margin-top: 5px;
+    
+      margin-bottom: 2px;
+      
+    height:auto;
+       
+   } 
+   .col{
+       flex-basis:25%;
+       padding: 5px;
+    color:white;
+   }
+   .col h3, .sociallink h3{
+       width: fit-content;
+       margin-top:auto;
+       margin-bottom:5px;
+       position:relative;
+       font-size:large;
+       color:white;
+       
+   }
+   .locate{
+       color: white;
+       margin-bottom:5px;
+       margin-left:5px;
+   }
+   .logo{
+       width:130px;
+       margin-bottom:1px;
+       position:relative;
+   }
+  
+  
+   .img-fluid{
+       border-radius: 50%;
+       box-shadow: 0px 0px 0px 0px #0880ff, 1px 2px 10px 2px rgb(1, 22, 43);
+       
+   }
+   
+
+  
+</style>
+
+<body>
+    <br>
+    <br>
+    <div class="container">
+    
+        <div class="card-body">
+        <a  href="">
+            <img src="images/tt-logo.svg" width="100" height="100" alt="" >
+        </a>
+      <br>
+      <br>
+      <br>
+      <br>
+
+        <h3 class="txt_name">Dear {Name}, </h3>
+
+        
+        <br>
+     
+
+        <p class="txt_1">Thank you for choosing to bank with us. Please find below your<b class="bold"> Account Number</b>  and <b class="bold">Account Details</b>
+            
+          
+           <ul><b class="bold"> Account Number:</b> {Account Number} </ul>
+           <ul> <b class="bold">Account Type:</b> Tier 1 Savings Account </ul>
+           <li><b class="bold"> Benefits</b></li>
+          <ul> <!-- Benefits of tier 1 savings--> Zero minimum account opening balance </ul>
+            <li>Allows use of mobile banking products, e-channels and issuance of ATM cards </li>
+            <li> Maximum single deposit-N50,000 </li>
+            <li> Maximum Cumulative Balance-N300,000</li>
+            <li>Transactions are limited to Nigeria </li>
+            <li>Mobile Payments single transactions limit-N3,000 </li>
+            <li> Mobile Payments daily cumulative transaction limit of N50,000 </li>
+
+
+
+
+
+            
+            
+
+
+        <p class="txt_1">For further enquiries, please call our interactive Contact Centre on<b class="bold">+234 01 2265100 or 0700 200 200,  Contactcentre@titantrustbank.com</b></p>
+   
+
+        <p class="txt_1">We appreciate your relationship with us and encourage you to visit our website  <a href="https://titantrustbank.com/home/" target="_blank" rel="noopener noreferrer">www.titantrustbank.com</a> to learn about our products and services.</p>
+
+        <p class="txt_1">
+            In line with the Central Bank of Nigeria Regulations, the bank is obligated to ensure that our
+            customers'
+            information is accurate and up-to-date.
+            If you have any questions or concerns, kindly reach our Contact Centre on <b class="bold">+234 7000 200 200,
+            01-2265129,
+            01-2265100 </b>  or email us on <b class="bold">contactcentre@titantrustbank.com.
+        </p>
+
+        <p class="txt_1"> Thank you for your continous patronage.</p>
+
+        <br>
+        <br>
+        <br>
+        
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer>
+       <div class="footer-content">
+       
+                <div class="ft-main" >
+                    <img src="images/whitelogo.svg" class="logo"  >
+                </div>
+            
+                
+                <div class="ft-main" style="color:white; font-size:small;width:auto; text-align:center;">
+                    <div class="location">
+                <li><b><img src="images/locate.png"style="height:28px;" > Titan Trust Bank</b></li>
+                <li> Plot 1680,Sanusi Fafunwa Street, </li>
+                <li>Victoria Island,Lagos State.</li>
+        
+                <li><img src="images/mail.png"style="height:21px;"> contactcentre@titantrustbank.com</li>
+                <li><img src="images/call.png"style="height:21px;"> 07000200200</li>
+            </div>    
+            </div>
+                
+                
+                   
+                       
+                      
+                     <div class="ft-main">  
+                         <div class="socials">
+                        <p style="color:aliceblue; height:7px; font-size:14px;"><b> Follow Us on:</b></p>
+                   
+               <a href="https://www.facebook.com/TitanTrustBank/" target="_blank" ><image style = "height:2em"src="images/fb.png"></image></a>
+                        <a  href="https://twitter.com/titantrustbank" target="_blank"><image style = "height:2em" src="images/instagram.png"></a>
+                         <a  href="https://www.instagram.com/titantrustbankng/" target="_blank"><image style = "height:2em" src="images/twitterpng.png"></a>
+                         </div>   
+                        </div>  
+
+                         <div  class="ft-main">
+                    
+                            <a  href="#">
+                            <img src="images/titan-image.PNG"  width="110" height="50" alt="" class="img-fluid">
+                            </a>
+                        
+                    
+                    </div>
+                 </div>
+                
+                 
+            
+             
+         </div>
+    
+     </div>
+  </footer>
+  
+</body>
+</html>
